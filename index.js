@@ -36,8 +36,6 @@ inquirer
   .then((data) => {
     console.log(data)
     new employee(JSON.stringify(data))
-    console.log(staff)
-
-
+    
   })
 
